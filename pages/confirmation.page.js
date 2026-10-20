@@ -1,0 +1,10 @@
+class ConfimationPage{
+
+    constructor(page){
+        this.page = page
+        this.url = 'confirmation'
+        this.mensagem = 'h1'
+        this.labelprice ='Amount'
+    }
+}
+export default ConfimationPage
