@@ -2,7 +2,7 @@ class PurchasePage {
 
     constructor(page){
         this.page = page
-        this.url = 'purchase'
+        this.url = /purchase/
         this.titulosecao = 'h2'             // seletor do tipo tag
         this.name = '#inputName'            // seletor do tipo id
         this.cardtype = '[name="cardType"]' // seletor do tipo parametro
