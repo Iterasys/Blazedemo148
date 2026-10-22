@@ -52,7 +52,7 @@ test('Comprar Passagem PO', async( {page} ) => {
                 {name: `${confirmationPage.labelprice}`}))
                 .toContainText(amount)
     await expect(page.getByRole('row', 
-            {name: `${confirmationPage.labelprice} ${amount}`}))
+            {name: `${confirmationPage.labelprice} ${amount}`, exact: true})).toBeVisible
         
 
 
